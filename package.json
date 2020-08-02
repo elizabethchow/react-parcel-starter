@@ -1,0 +1,25 @@
+{
+  "name": "react-parcel-starter",
+  "version": "1.0.0",
+  "description": "React starter kit utilizing Parcel",
+  "main": "index.js",
+  "author": "Elizabeth Chow",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserlist": [
+    "last 1 Chrome version"
+  ],
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build .src/index.html"
+  }
+}
