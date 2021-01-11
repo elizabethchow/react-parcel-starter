@@ -1,6 +1,6 @@
 {
   "name": "react-parcel-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React starter kit utilizing Parcel",
   "main": "index.js",
   "author": "Elizabeth Chow",
